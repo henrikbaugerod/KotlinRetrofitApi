@@ -10,6 +10,6 @@ interface Api {
     suspend fun getItemList(): Items
 
     companion object {
-        const val BASE_URL = "https://your.api.com/"
+        const val BASE_URL = "https://biljard.catchmedia.no/api2/"
     }
 }
